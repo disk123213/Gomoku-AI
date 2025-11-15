@@ -1,0 +1,26 @@
+# Python版本要求
+python>=3.8,<3.12
+
+# 核心依赖
+pygame>=2.1.0          # 可视化界面
+torch>=1.13.0          # 神经网络/强化学习/GPU加速
+torchvision>=0.14.0     # 辅助torch
+torchaudio>=0.13.0     # 可选（如需语音提示）
+numpy>=1.23.0         # 数值计算
+crcmod>=1.7           # 数据校验
+websockets>=10.4       # 直播/联机通信
+python-dotenv>=1.0.0   # 配置文件
+pyyaml>=6.0            # 可选（如需YAML配置）
+zipfile36>=0.1.3       # 可选（Python3.8+自带，兼容旧版本）
+pickle-mixin>=1.0.2    # 训练数据存储
+csv>=1.0              # 训练数据存储（标准库）
+re>=2.2.1             # 正则表达式（标准库）
+os.path>=1.0           # 路径处理（标准库）
+threading>=1.0         # 多线程（标准库）
+asyncio>=3.4.3         # 异步通信（标准库）
+subprocess>=3.8        # FFmpeg调用（标准库）
+
+# 开发依赖（可选）
+pytest>=7.3.1          # 单元测试
+flake8>=6.0.0          # 代码检查
+black>=23.3.0          # 代码格式化
